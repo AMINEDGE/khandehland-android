@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFCD50</color>
+    <color name="colorPrimaryDark">#FFCD50</color>
+    <color name="colorPrimaryLight">#FFD467</color>
+    <color name="colorAccent">#FF8682</color>
+    <color name="colorThemeDarkGrey">#434343</color>
+    <color name="colorThemeWhite">#EEEEDD</color>
+    <color name="colorRealWhite">#F8F8F8</color>
+    <color name="colorSuccess">#00AA55</color>
+    <color name="colorInfo">#00AADD</color>
+    <color name="colorWarning">#FFCC00</color>
+    <color name="colorError">#FF2233</color>
+</resources>

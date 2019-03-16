@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@color/colorPrimaryLight"
+    app:statusBarBackground="@color/colorPrimaryDark">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/app_bar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <!--<android.support.v7.widget.Toolbar-->
+            <!--android:id="@+id/toolbar"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="?attr/actionBarSize"-->
+            <!--android:background="@color/colorPrimary"-->
+            <!--app:title="خنده لند"-->
+            <!--/>-->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingRight="14dp"
+                android:paddingLeft="14dp">
+
+
+                <TextView
+                    android:id="@+id/nav_title_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24dp"
+                    android:text="خنده لند"
+                    android:layout_gravity="right"
+                    android:layout_alignParentRight="true"
+                    android:fontFamily="@font/iransansmobile_medium"
+                    android:textColor="@color/colorThemeDarkGrey"/>
+
+                <ImageButton
+                    android:id="@+id/nav_favorite_button"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_alignParentLeft="true"
+                    app:srcCompat="@drawable/ic_favorite_nav_gray"
+                    android:background="@android:color/transparent"
+                    />
+            </RelativeLayout>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <include android:layout_below="@id/app_bar_layout"
+            layout="@layout/content_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="@dimen/fab_margin"
+            app:srcCompat="@drawable/ic_add" />
+
+        <!--TAPSELL-->
+
+        <FrameLayout
+            android:id="@+id/tapsell_banner_ads_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/fab"
+            android:background="@android:color/transparent">
+
+
+            <ir.tapsell.sdk.bannerads.TapsellBannerView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tapsell_banner_ads_view"
+                app:tapsell_banner_type="banner_320x50"
+                app:tapsell_zone_id="5b950752791fec0001655980"
+                android:background="@android:color/transparent" />
+        </FrameLayout>
+
+        <!--TAPSELL-->
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

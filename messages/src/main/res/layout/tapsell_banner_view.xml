@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_below="@id/app_bar_layout"
+    android:id="@+id/tapsell_banner_ads_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@id/tapsell_nativead_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@id/tapsell_nativead_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/tapsell_nativead_logo"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@id/tapsell_nativead_sponsored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tapsell_nativead_logo"/>
+
+    <TextView
+        android:id="@id/tapsell_nativead_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tapsell_nativead_sponsored"/>
+
+    <ir.tapsell.sdk.nativeads.views.RateStarView
+        android:id="@id/tapsell_nativead_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/tapsell_nativead_sponsored"/>
+
+    <ir.tapsell.sdk.nativeads.views.RatioImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@id/tapsell_nativead_banner"
+        app:aspect_ratio="0.5625"
+        app:aspect_style="fixed_width"
+        android:layout_below="@id/tapsell_nativead_description"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/tapsell_nativead_banner"
+        android:id="@id/tapsell_nativead_cta" />
+</RelativeLayout>

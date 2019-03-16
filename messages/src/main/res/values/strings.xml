@@ -1,0 +1,67 @@
+<resources>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="login_and_submit_message_title">ورود و ثبت متن</string>
+    <string name="submit_message_title">ثبت متن</string>
+    <string name="login_ask">قبلا ثبت نام کرده اید؟</string>
+    <string name="login_ask_button">وارد شوید</string>
+    <string name="register_ask">هنوز ثبت نام کرده اید؟</string>
+    <string name="register_ask_button">ثبت نام کنید</string>
+    <string name="username_validation_message">نام کاربری میبایست دارای حداقل ۳ کارکتر و حداکثر ۲۰ کارکتر متنی یا عددی باشد</string>
+    <string name="email_validation_message">ایمیل میبایست یا خالی و یا دارای آدرس ایمیل معتبر باشد</string>
+    <string name="password_validation_message">گذرواژه میبایست دارای حداقل ۵ و حداکثر ۳۰ کارکتر باشد</string>
+    <string name="message_validation_message">پیام میبایست دارای حداقل ۱۰، حداکثر ۶۰۰ کارکتر و حداکثر ۱۲ سطر باشد</string>
+    <string name="done">انجام</string>
+    <string name="ok">باشه</string>
+    <string name="update_available">نسخه جدید برنامه منتشر شده است</string>
+    <string name="necessary_update_text">متاسفانه نسخه نصب شده روی دستگاه شما دیگر پشتییانی نمیشود و برای استفاده کامل از برنامه میتوانید برنامه را به جدیدترین نسخه بروزرسانی نمایید</string>
+    <string name="optional_update_text">شما میتوانید با لمس دریافت جدیدترین نسخه برنامه خود را بروزرسانی نمایید</string>
+    <string name="get_update_title">دریافت جدیدترین نسخه برنامه</string>
+    <string name="later">بعدا</string>
+    <string name="no_internet_connection_title">اتصال به اینترنت موفقیت آمیز نبود</string>
+    <string name="no_internet_connection_text">برای دریافت اطلاعات جدید در برنامه نیاز است که دستگاه خود را به اینترنت متصل نمایید</string>
+    <string name="server_error_title">خطا در برقراری با سرویس دهنده</string>
+    <string name="server_error_text">برقراری با سرویس دهنده جهت بروزرسانی اطلاعات امکان پذیر نمیباشد</string>
+    <string name="use_app_in_offline_mode">استفاده از برنامه بصورت آفلاین</string>
+    <string name="message_pending_title">پیام شما دریافت شد</string>
+    <string name="message_pending_text">پیام شما دریافت شد و بزودی در برنامه قابل مشاهده میباشد</string>
+    <string name="favorite_by_members">مورد پسند %s کاربر</string>
+    <string name="share_download_text">\n\nارسال شده توسط اپلیکیشن خنده لند\nدانلود برای موبایل و تبلت\n%s</string>
+    <string name="message_favorite_guide">این پیام به لیست پیام های مورد پسند شما افزوده شد، برای مشاهده تعداد کاربرانی که این پیام را پسندیده اند(زمانی که به اینترنت متصل هستید) میتوانید وارد حساب خود شوید</string>
+    <string name="empty_list_placeholder">هیچ متنی نیست!</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- IAB -->
+
+    <string name="premium_title">خنده لند پرمیوم</string>
+    <string name="premium_features">✔ حذف تبلیغات درون برنامه\n\n✔ دسترسی به بخش علاقمندی ها\n\n✔ ویژگی هایی که در نسخه های بعد اضافه میشوند\n\n✔ حمایت از توسعه دهنده\n\n</string>
+    <string name="premium_price">مبلغ قابل پرداخت: %s تومان</string>
+    <string name="premium_buy_and_activate">پرداخت (یا بازگردانی) و فعال سازی آنی</string>
+    <string name="premium_buy_later">شاید بعدا</string>
+
+    <!-- Market not installed -->
+
+    <string name="market_not_installed_title">کافه بازار نصب نیست!</string>
+    <string name="market_not_installed_text">برای استفاده از امکانات ویژه و حذف تبلیغات نیاز است که کافه بازار را نصب کنید و وارد حساب کاربری کافه بازار خود شوید</string>
+
+    <!-- Premium Bought -->
+
+    <string name="purchase_done_title">مرسی :)</string>
+    <string name="purchase_done_text">دسرسی شما به خنده لند پرمیوم باز میباشد، لطف شما را فراموش نخواهیم کرد!</string>
+    <string name="purchase_no_problem">خواهش میکنم</string>
+
+</resources>

@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+apply plugin: 'realm-android'
+
+android {
+    signingConfigs {
+        khandehland {
+            keyAlias 'khandehland-main'
+            keyPassword 'ImagineYourDreams'
+            storeFile file('/Users/aminhajari/Desktop/keystore.jks')
+        }
+    }
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId 'com.hjri.khandeland'
+        minSdkVersion 16
+        targetSdkVersion 28
+        versionCode 10
+        versionName "1.0.4"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    implementation project(':messages')
+    implementation project(':base')
+}
